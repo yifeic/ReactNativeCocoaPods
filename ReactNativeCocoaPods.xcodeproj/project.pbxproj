@@ -1,431 +1,959 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		309265871AF1C82300FF6F92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309265861AF1C82300FF6F92 /* main.m */; };
-		3092658A1AF1C82300FF6F92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309265891AF1C82300FF6F92 /* AppDelegate.m */; };
-		3092658D1AF1C82300FF6F92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092658C1AF1C82300FF6F92 /* ViewController.m */; };
-		309265901AF1C82300FF6F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3092658E1AF1C82300FF6F92 /* Main.storyboard */; };
-		309265921AF1C82300FF6F92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309265911AF1C82300FF6F92 /* Images.xcassets */; };
-		309265951AF1C82300FF6F92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309265931AF1C82300FF6F92 /* LaunchScreen.xib */; };
-		309265A11AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309265A01AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3092659B1AF1C82300FF6F92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 309265791AF1C82300FF6F92 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 309265801AF1C82300FF6F92;
-			remoteInfo = ReactNativeCocoaPods;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		309265811AF1C82300FF6F92 /* ReactNativeCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		309265851AF1C82300FF6F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		309265861AF1C82300FF6F92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		309265881AF1C82300FF6F92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		309265891AF1C82300FF6F92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3092658B1AF1C82300FF6F92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3092658C1AF1C82300FF6F92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3092658F1AF1C82300FF6F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		309265911AF1C82300FF6F92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		309265941AF1C82300FF6F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3092659A1AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeCocoaPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3092659F1AF1C82300FF6F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		309265A01AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCocoaPodsTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		3092657E1AF1C82300FF6F92 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		309265971AF1C82300FF6F92 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		309265781AF1C82300FF6F92 = {
-			isa = PBXGroup;
-			children = (
-				309265831AF1C82300FF6F92 /* ReactNativeCocoaPods */,
-				3092659D1AF1C82300FF6F92 /* ReactNativeCocoaPodsTests */,
-				309265821AF1C82300FF6F92 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		309265821AF1C82300FF6F92 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				309265811AF1C82300FF6F92 /* ReactNativeCocoaPods.app */,
-				3092659A1AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		309265831AF1C82300FF6F92 /* ReactNativeCocoaPods */ = {
-			isa = PBXGroup;
-			children = (
-				309265881AF1C82300FF6F92 /* AppDelegate.h */,
-				309265891AF1C82300FF6F92 /* AppDelegate.m */,
-				3092658B1AF1C82300FF6F92 /* ViewController.h */,
-				3092658C1AF1C82300FF6F92 /* ViewController.m */,
-				3092658E1AF1C82300FF6F92 /* Main.storyboard */,
-				309265911AF1C82300FF6F92 /* Images.xcassets */,
-				309265931AF1C82300FF6F92 /* LaunchScreen.xib */,
-				309265841AF1C82300FF6F92 /* Supporting Files */,
-			);
-			path = ReactNativeCocoaPods;
-			sourceTree = "<group>";
-		};
-		309265841AF1C82300FF6F92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				309265851AF1C82300FF6F92 /* Info.plist */,
-				309265861AF1C82300FF6F92 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3092659D1AF1C82300FF6F92 /* ReactNativeCocoaPodsTests */ = {
-			isa = PBXGroup;
-			children = (
-				309265A01AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.m */,
-				3092659E1AF1C82300FF6F92 /* Supporting Files */,
-			);
-			path = ReactNativeCocoaPodsTests;
-			sourceTree = "<group>";
-		};
-		3092659E1AF1C82300FF6F92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3092659F1AF1C82300FF6F92 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		309265801AF1C82300FF6F92 /* ReactNativeCocoaPods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 309265A41AF1C82300FF6F92 /* Build configuration list for PBXNativeTarget "ReactNativeCocoaPods" */;
-			buildPhases = (
-				3092657D1AF1C82300FF6F92 /* Sources */,
-				3092657E1AF1C82300FF6F92 /* Frameworks */,
-				3092657F1AF1C82300FF6F92 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ReactNativeCocoaPods;
-			productName = ReactNativeCocoaPods;
-			productReference = 309265811AF1C82300FF6F92 /* ReactNativeCocoaPods.app */;
-			productType = "com.apple.product-type.application";
-		};
-		309265991AF1C82300FF6F92 /* ReactNativeCocoaPodsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 309265A71AF1C82300FF6F92 /* Build configuration list for PBXNativeTarget "ReactNativeCocoaPodsTests" */;
-			buildPhases = (
-				309265961AF1C82300FF6F92 /* Sources */,
-				309265971AF1C82300FF6F92 /* Frameworks */,
-				309265981AF1C82300FF6F92 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3092659C1AF1C82300FF6F92 /* PBXTargetDependency */,
-			);
-			name = ReactNativeCocoaPodsTests;
-			productName = ReactNativeCocoaPodsTests;
-			productReference = 3092659A1AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		309265791AF1C82300FF6F92 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Victor Chen";
-				TargetAttributes = {
-					309265801AF1C82300FF6F92 = {
-						CreatedOnToolsVersion = 6.3;
-					};
-					309265991AF1C82300FF6F92 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 309265801AF1C82300FF6F92;
-					};
-				};
-			};
-			buildConfigurationList = 3092657C1AF1C82300FF6F92 /* Build configuration list for PBXProject "ReactNativeCocoaPods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 309265781AF1C82300FF6F92;
-			productRefGroup = 309265821AF1C82300FF6F92 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				309265801AF1C82300FF6F92 /* ReactNativeCocoaPods */,
-				309265991AF1C82300FF6F92 /* ReactNativeCocoaPodsTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		3092657F1AF1C82300FF6F92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				309265901AF1C82300FF6F92 /* Main.storyboard in Resources */,
-				309265951AF1C82300FF6F92 /* LaunchScreen.xib in Resources */,
-				309265921AF1C82300FF6F92 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		309265981AF1C82300FF6F92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		3092657D1AF1C82300FF6F92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3092658D1AF1C82300FF6F92 /* ViewController.m in Sources */,
-				3092658A1AF1C82300FF6F92 /* AppDelegate.m in Sources */,
-				309265871AF1C82300FF6F92 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		309265961AF1C82300FF6F92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				309265A11AF1C82300FF6F92 /* ReactNativeCocoaPodsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3092659C1AF1C82300FF6F92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 309265801AF1C82300FF6F92 /* ReactNativeCocoaPods */;
-			targetProxy = 3092659B1AF1C82300FF6F92 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3092658E1AF1C82300FF6F92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3092658F1AF1C82300FF6F92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		309265931AF1C82300FF6F92 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				309265941AF1C82300FF6F92 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		309265A21AF1C82300FF6F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		309265A31AF1C82300FF6F92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		309265A51AF1C82300FF6F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ReactNativeCocoaPods/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		309265A61AF1C82300FF6F92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ReactNativeCocoaPods/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		309265A81AF1C82300FF6F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactNativeCocoaPodsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCocoaPods.app/ReactNativeCocoaPods";
-			};
-			name = Debug;
-		};
-		309265A91AF1C82300FF6F92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactNativeCocoaPodsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCocoaPods.app/ReactNativeCocoaPods";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		3092657C1AF1C82300FF6F92 /* Build configuration list for PBXProject "ReactNativeCocoaPods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				309265A21AF1C82300FF6F92 /* Debug */,
-				309265A31AF1C82300FF6F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		309265A41AF1C82300FF6F92 /* Build configuration list for PBXNativeTarget "ReactNativeCocoaPods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				309265A51AF1C82300FF6F92 /* Debug */,
-				309265A61AF1C82300FF6F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		309265A71AF1C82300FF6F92 /* Build configuration list for PBXNativeTarget "ReactNativeCocoaPodsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				309265A81AF1C82300FF6F92 /* Debug */,
-				309265A91AF1C82300FF6F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 309265791AF1C82300FF6F92 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0CDC95DDADAF4FA70BF49F6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>309265781AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265831AF1C82300FF6F92</string>
+				<string>3092659D1AF1C82300FF6F92</string>
+				<string>309265821AF1C82300FF6F92</string>
+				<string>7AA93FC7DBA5138542B993E5</string>
+				<string>BA0D0990B1572DBB42F1FF3C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265791AF1C82300FF6F92</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0630</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Victor Chen</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>309265801AF1C82300FF6F92</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.3</string>
+					</dict>
+					<key>309265991AF1C82300FF6F92</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.3</string>
+						<key>TestTargetID</key>
+						<string>309265801AF1C82300FF6F92</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>3092657C1AF1C82300FF6F92</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>309265781AF1C82300FF6F92</string>
+			<key>productRefGroup</key>
+			<string>309265821AF1C82300FF6F92</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>309265801AF1C82300FF6F92</string>
+				<string>309265991AF1C82300FF6F92</string>
+			</array>
+		</dict>
+		<key>3092657C1AF1C82300FF6F92</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>309265A21AF1C82300FF6F92</string>
+				<string>309265A31AF1C82300FF6F92</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3092657D1AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3092658D1AF1C82300FF6F92</string>
+				<string>3092658A1AF1C82300FF6F92</string>
+				<string>309265871AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3092657E1AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7732784E69571054C5CE9CC0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3092657F1AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>309265901AF1C82300FF6F92</string>
+				<string>309265951AF1C82300FF6F92</string>
+				<string>309265921AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>309265801AF1C82300FF6F92</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>309265A41AF1C82300FF6F92</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0CDC95DDADAF4FA70BF49F6B</string>
+				<string>3092657D1AF1C82300FF6F92</string>
+				<string>3092657E1AF1C82300FF6F92</string>
+				<string>3092657F1AF1C82300FF6F92</string>
+				<string>AFF37D46140373CEE2004EC2</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ReactNativeCocoaPods</string>
+			<key>productName</key>
+			<string>ReactNativeCocoaPods</string>
+			<key>productReference</key>
+			<string>309265811AF1C82300FF6F92</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>309265811AF1C82300FF6F92</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ReactNativeCocoaPods.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>309265821AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265811AF1C82300FF6F92</string>
+				<string>3092659A1AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265831AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265881AF1C82300FF6F92</string>
+				<string>309265891AF1C82300FF6F92</string>
+				<string>3092658B1AF1C82300FF6F92</string>
+				<string>3092658C1AF1C82300FF6F92</string>
+				<string>3092658E1AF1C82300FF6F92</string>
+				<string>309265911AF1C82300FF6F92</string>
+				<string>309265931AF1C82300FF6F92</string>
+				<string>309265841AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ReactNativeCocoaPods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265841AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265851AF1C82300FF6F92</string>
+				<string>309265861AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265851AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265861AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265871AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>309265861AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>309265881AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265891AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092658A1AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>309265891AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3092658B1AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092658C1AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092658D1AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3092658C1AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3092658E1AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3092658F1AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092658F1AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265901AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3092658E1AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>309265911AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265921AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>309265911AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>309265931AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265941AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265941AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265951AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>309265931AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>309265961AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>309265A11AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>309265971AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>309265981AF1C82300FF6F92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>309265991AF1C82300FF6F92</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>309265A71AF1C82300FF6F92</string>
+			<key>buildPhases</key>
+			<array>
+				<string>309265961AF1C82300FF6F92</string>
+				<string>309265971AF1C82300FF6F92</string>
+				<string>309265981AF1C82300FF6F92</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3092659C1AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ReactNativeCocoaPodsTests</string>
+			<key>productName</key>
+			<string>ReactNativeCocoaPodsTests</string>
+			<key>productReference</key>
+			<string>3092659A1AF1C82300FF6F92</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>3092659A1AF1C82300FF6F92</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ReactNativeCocoaPodsTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3092659B1AF1C82300FF6F92</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>309265791AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>309265801AF1C82300FF6F92</string>
+			<key>remoteInfo</key>
+			<string>ReactNativeCocoaPods</string>
+		</dict>
+		<key>3092659C1AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>309265801AF1C82300FF6F92</string>
+			<key>targetProxy</key>
+			<string>3092659B1AF1C82300FF6F92</string>
+		</dict>
+		<key>3092659D1AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>309265A01AF1C82300FF6F92</string>
+				<string>3092659E1AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ReactNativeCocoaPodsTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092659E1AF1C82300FF6F92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3092659F1AF1C82300FF6F92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3092659F1AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265A01AF1C82300FF6F92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ReactNativeCocoaPodsTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>309265A11AF1C82300FF6F92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>309265A01AF1C82300FF6F92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>309265A21AF1C82300FF6F92</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>309265A31AF1C82300FF6F92</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>309265A41AF1C82300FF6F92</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>309265A51AF1C82300FF6F92</string>
+				<string>309265A61AF1C82300FF6F92</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>309265A51AF1C82300FF6F92</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9F4B5CDF0A5B01D282957EBE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ReactNativeCocoaPods/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>309265A61AF1C82300FF6F92</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4698C67428CDDB7A7A6166D5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ReactNativeCocoaPods/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>309265A71AF1C82300FF6F92</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>309265A81AF1C82300FF6F92</string>
+				<string>309265A91AF1C82300FF6F92</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>309265A81AF1C82300FF6F92</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>ReactNativeCocoaPodsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/ReactNativeCocoaPods.app/ReactNativeCocoaPods</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>309265A91AF1C82300FF6F92</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>ReactNativeCocoaPodsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/ReactNativeCocoaPods.app/ReactNativeCocoaPods</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4698C67428CDDB7A7A6166D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ReactNativeCocoaPods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ReactNativeCocoaPods/Pods-ReactNativeCocoaPods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7732784E69571054C5CE9CC0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E40E5CABCE86756B6C922EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7AA93FC7DBA5138542B993E5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9F4B5CDF0A5B01D282957EBE</string>
+				<string>4698C67428CDDB7A7A6166D5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E40E5CABCE86756B6C922EB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-ReactNativeCocoaPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9F4B5CDF0A5B01D282957EBE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ReactNativeCocoaPods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ReactNativeCocoaPods/Pods-ReactNativeCocoaPods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AFF37D46140373CEE2004EC2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeCocoaPods/Pods-ReactNativeCocoaPods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>BA0D0990B1572DBB42F1FF3C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8E40E5CABCE86756B6C922EB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>309265791AF1C82300FF6F92</string>
+</dict>
+</plist>
