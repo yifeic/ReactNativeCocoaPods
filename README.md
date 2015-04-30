@@ -8,5 +8,8 @@ ReactNativeCocoaPods is a sample app that demonstrates how to set up a React Nat
 3. `npm start` 
 4. Open Xcode and Run
 
+## How did I create this project
+See commit history for a step by step tutorial. The initial commit is an empty "Single View Application" created using Xcode.
+
 ## License
 ReactNativeCocoaPods is available under the MIT license.
