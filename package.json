@@ -1,0 +1,10 @@
+{
+  "name": "ReactNativeCocoaPods",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "Pods/React/packager/packager.sh --root ."
+  },
+  "dependencies": {
+  }
+}
